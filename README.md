@@ -99,3 +99,17 @@ lasting-impression/
 | Program | Ingeniería Multimedia |
 | Stage | 1 — Environment recognition and team formation with VCS |
 | Version | v1.0 |
+---
+
+## Miembro del equipo: Mariana Ramírez
+
+![Foto de Mariana](mariana/foto_personal.jpeg)
+
+* **Rol de la industria:** mi rol es Technical Designer
+* **Ubicación:** Vivo en Bogota
+
+**Perfil breve:** 
+Hola, soy Mariana. Soy estudiante de ingenieria multimedia y me gusta esta carrera porque combina el arte y la tecnologia actual
+
+**Mi plato favorito:**
+![Mi plato favorito](mariana/plato_favorito.jpg)
