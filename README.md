@@ -99,3 +99,8 @@ lasting-impression/
 | Program | Ingeniería Multimedia |
 | Stage | 1 — Environment recognition and team formation with VCS |
 | Version | v1.0 |
+
+
+### Integrante
+* **Nombre:** Yisel Sofia Moreno Muñoz
+* **Rol:** Graphics / Rendering
