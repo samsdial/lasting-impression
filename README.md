@@ -10,7 +10,7 @@ Programming for Video Games (213027) · Universidad Nacional Abierta y a Distanc
 
 This repository is the starting point of a collaborative video game development project. During Stage 1 the team sets up the working environment, defines roles from the game industry, agrees on a communication channel, and configures a shared repository with Git and GitHub.
 
-In parallel, each member performs an analytical review of three international *games for change* references, connecting design and programming decisions with social, educational and cultural impact.
+In parallel, each member performs an analytical review of three international _games for change_ references, connecting design and programming decisions with social, educational and cultural impact.
 
 ---
 
@@ -90,12 +90,12 @@ lasting-impression/
 
 ## Course information
 
-| Field | Value |
-|---|---|
-| Course | Programming for Video Games |
-| Code | 213027 |
-| Institution | UNAD — Vicerrectoría Académica y de Investigación |
-| School | Escuela de Ciencias Básicas, Tecnología e Ingeniería (ECBTI) |
-| Program | Ingeniería Multimedia |
-| Stage | 1 — Environment recognition and team formation with VCS |
-| Version | v1.0 |
+| Field       | Value                                                        |
+| ----------- | ------------------------------------------------------------ |
+| Course      | Programming for Video Games                                  |
+| Code        | 213027                                                       |
+| Institution | UNAD — Vicerrectoría Académica y de Investigación            |
+| School      | Escuela de Ciencias Básicas, Tecnología e Ingeniería (ECBTI) |
+| Program     | Ingeniería Multimedia                                        |
+| Stage       | 1 — Environment recognition and team formation with VCS      |
+| Version     | v1.1                                                         |
