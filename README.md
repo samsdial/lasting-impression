@@ -101,6 +101,12 @@ lasting-impression/
 | Version | v1.0 |
 
 
-### Integrante
-* **Nombre:** Yisel Sofia Moreno Muñoz
-* **Rol:** Graphics / Rendering
+### Yisel Sofia Moreno Muñoz
+
+![Profile picture](./assets/profiles/yisel.jpg)
+
+- **Role:** Graphics / Rendering
+- **Location:** Bogotá, Colombia
+- **Profile:** Multimedia Engineering student focused on 3D modeling, asset creation, rendering, and visual optimization for interactive experiences. Interested in how visual fidelity, lighting, and performance influence player immersion in video games with social impact.
+
+Favorite dish → [`/yisel/`](./yisel/)
