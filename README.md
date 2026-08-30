@@ -112,3 +112,9 @@ lasting-impression/
 **Favorite dish:**
 
 ![Pasta](./yisel/pasta.png)
+
+### Esteban Camargo
+
+- **Role:** Gameplay
+- **Location:** Tocancipá, Colombia
+- **Profile:** Multimedia Engineering student interested in programming and game design, with an interest in developing gameplay mechanics and interactive experiences.
