@@ -42,3 +42,45 @@
   * **Accesibilidad e Impacto:** Integración de audio holofónico (binaural) en 3D que simula voces dentro de la cabeza de la jugadora. Desarrollado en estrecha colaboración con neurocientíficos y personas con experiencias vividas de psicosis.
 
 
+---
+
+## Aporte de Esteban Camargo Sarmiento
+
+* **Rol:** Gameplay
+* **Estudiante:** Esteban Camargo Sarmiento
+
+### 4. Concrete Genie
+
+* **Desarrollador / Editor:** Pixelopus / Sony Interactive Entertainment
+* **Propósito:** Social y educativo. Aborda el bullying, el aislamiento y la importancia del arte como medio de expresión y superación.
+* **Comunidad / Público objetivo:** Público general, especialmente jóvenes y jugadores interesados en temas de empatía, inclusión y creatividad.
+* **Decisiones de Diseño, Programación y Gameplay:**
+  * **Mecánicas:** La pintura es una mecánica principal que permite al jugador transformar el entorno y crear criaturas.
+  * **Narrativa e Impacto:** Las acciones del jugador están relacionadas con la historia del protagonista y permiten experimentar la creatividad como una forma de superar situaciones de aislamiento y bullying.
+  * **Gameplay:** La exploración y la creación mediante pintura hacen que el jugador participe directamente en la solución de los problemas del entorno, reforzando el mensaje de empatía y superación.
+
+### 5. Arise: A Simple Story
+
+* **Desarrollador / Editor:** Piccolo Studio / Techland Publishing
+* **Propósito:** Social y emocional. Aborda la pérdida, los recuerdos, el duelo y las diferentes etapas de la vida.
+* **Comunidad / Público objetivo:** Público general y jugadores interesados en experiencias narrativas y temas emocionales.
+* **Decisiones de Diseño, Programación y Gameplay:**
+  * **Mecánicas:** La exploración y el control del tiempo permiten modificar el entorno y avanzar a través de diferentes momentos de la vida del protagonista.
+  * **Narrativa e Impacto:** Los escenarios representan recuerdos y experiencias emocionales, permitiendo que el jugador comprenda el proceso de pérdida y duelo.
+  * **Gameplay:** Las mecánicas están relacionadas directamente con la narrativa, haciendo que la experiencia emocional sea parte de la interacción y no solamente de la historia.
+
+### 6. A Fold Apart
+
+* **Desarrollador / Editor:** Lightning Rod Games
+* **Propósito:** Social y educativo. Aborda las dificultades de comunicación, los conflictos y las emociones presentes en las relaciones a distancia.
+* **Comunidad / Público objetivo:** Público general y jugadores interesados en relaciones personales, comunicación y empatía.
+* **Decisiones de Diseño, Programación y Gameplay:**
+  * **Mecánicas:** Los rompecabezas se resuelven doblando escenarios de papel, representando las diferentes perspectivas y pensamientos de los personajes.
+  * **Narrativa e Impacto:** Las decisiones y conversaciones muestran cómo los pensamientos y las emociones pueden afectar una relación.
+  * **Gameplay:** La mecánica de doblar el escenario obliga al jugador a buscar diferentes perspectivas para avanzar, reforzando el mensaje de comunicación y empatía.
+
+---
+
+## Conclusión
+
+Los tres videojuegos muestran cómo el gameplay puede estar relacionado con un propósito social. Concrete Genie utiliza el arte y la creatividad para abordar el bullying; Arise: A Simple Story utiliza la exploración y el manejo del tiempo para representar el duelo; y A Fold Apart utiliza los rompecabezas para representar la comunicación y las diferentes perspectivas. Desde mi rol de Gameplay, considero que estas decisiones permiten que el jugador no solamente conozca un problema, sino que pueda experimentarlo mediante la interacción.
