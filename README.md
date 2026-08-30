@@ -103,7 +103,7 @@ lasting-impression/
 
 ### Yisel Sofia Moreno Muñoz
 
-![Profile picture](./assets/profiles/yisel.jpg)
+![Profile picture](./assets/profiles/yisel.png)
 
 - **Role:** Graphics / Rendering
 - **Location:** Bogotá, Colombia
