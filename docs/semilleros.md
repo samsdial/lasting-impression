@@ -37,3 +37,17 @@ Plataforma de semilleros UNAD: <https://investigaciones.unad.edu.co/PSemilleros/
 * **Línea de investigación:** Desarrollo de contenido digital interactivo, narrativa transmedia, entornos virtuales e innovación tecnológica[cite: 1].
 * **Aporte y articulación desde el rol:** 
   El semillero impulsa la creación de experiencias inmersivas e interactivas orientadas al desarrollo con propósito social, educativo y cultural[cite: 1]. Desde mi rol de **Graphics / Rendering**, las técnicas de modelado 3D, optimización de mallas geométricas, configuración de materiales, sombreadores (*shaders*) y renderizado en tiempo real son esenciales. Estas competencias garantizan que los entornos interactivos no solo logren un alto impacto visual y narrativo, sino que también mantengan una eficiencia técnica óptima, rendimiento fluido y accesibilidad en plataformas de desarrollo como Unity 3D[cite: 1].
+
+
+  ## Aporte de Esteban Camargo Sarmiento
+
+* **Rol:** Gameplay
+
+### Semillero: StoryLab Digital
+
+El semillero **StoryLab Digital** de la UNAD se enfoca en la creación e investigación de narrativas digitales e interactivas. Su trabajo incluye el desarrollo de videojuegos narrativos, experiencias transmedia y otras experiencias interactivas.
+
+La línea de investigación **Diseño Tecnológico Centrado en la Experiencia de Usuario** tiene una relación directa con nuestro proyecto, ya que permite considerar la interacción, la narrativa y la experiencia del jugador como elementos fundamentales en el desarrollo de videojuegos.
+
+Considero que este semillero tiene proyección internacional porque combina tecnología, creatividad y narrativas interactivas, áreas que pueden aplicarse al desarrollo de experiencias digitales dirigidas a diferentes comunidades.
+
