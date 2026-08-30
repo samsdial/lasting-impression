@@ -116,8 +116,14 @@ lasting-impression/
 
 ### Esteban Camargo
 
+![Esteban Camargo](assets/profiles/esteban.jpg)
+
 - **Role:** Gameplay
 - **Location:** Tocancipá, Colombia
 - **Profile:** Multimedia Engineering student interested in programming and game design, with an interest in developing gameplay mechanics and interactive experiences.
+
+**Favorite dish:**
+
+![Esteban Camargo](assets/profiles/esteban.jpg)
 
 
