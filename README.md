@@ -40,15 +40,15 @@ Favorite dish → [`/sergiomartinez/`](./sergiomartinez/)
 
 ---
 
-### [Teammate 3 First Name] [Last Name]
+### Mariana Ramírez
 
-![Profile picture](./assets/profiles/[firstname].jpg)
+![Profile picture](./mariana/foto_personal.jpeg)
 
-- **Role:** Narrative Designer / Artist
-- **Location:** [City, Country]
-- **Profile:** [Brief 2–3 line description]
+- **Role:** Technical Designer
+- **Location:** Bogotá, Colombia
+- **Profile:** Multimedia engineering student. She likes this program because it combines art and current technology.
 
-Favorite dish → [`/[firstname]/`](./)
+Favorite dish → [`/mariana/`](./mariana/)
 
 ---
 
@@ -64,7 +64,7 @@ lasting-impression/
 ├── assets/profiles/       ← profile pictures referenced above
 ├── samuel/                ← Samuel's folder (favorite dish, personal assets)
 ├── sergiomartinez/        ← Sergio Martinez E (engine / online backend)
-├── [firstname]/           ← remaining teammate creates their own folder
+├── mariana/               ← Mariana Ramírez (technical designer)
 └── docs/
     ├── ficha-analitica.md ← games for change analysis
     ├── semilleros.md      ← research groups exploration
