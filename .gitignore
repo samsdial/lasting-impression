@@ -28,6 +28,7 @@ crashlytics-build.properties
 .vs/
 .idea/
 .vscode/
+.claude/skills
 *.csproj
 *.unityproj
 *.sln
