@@ -15,7 +15,7 @@ Report each item as OK / FAIL with the fix the author must make. Do not merge or
 
 ## 2. Art
 - [ ] File names match the table in `docs/GUIA-APORTES-ETAPA3.md` exactly (lowercase, `.png`).
-- [ ] PNG with a transparent background, 32×32 per tile (backgrounds 640×360).
+- [ ] PNG with a transparent background, 64×64 per tile (backgrounds 1280×360).
 - [ ] Trash vs seed, and hazards vs collectibles, are distinguishable by shape (check in grayscale).
 - [ ] Gray and green versions keep the same silhouette (only the palette changes).
 

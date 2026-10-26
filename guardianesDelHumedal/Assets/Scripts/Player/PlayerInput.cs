@@ -107,5 +107,58 @@ namespace GuardiansOfTheWetland.Player
                    Input.GetKeyUp(KeyCode.JoystickButton0);
 #endif
         }
+
+        // ---------- Volume keys (1/2 = music down/up, 3/4 = effects down/up) ----------
+
+        /// <summary>True on the frame the "music down" key (1) is pressed.</summary>
+        public static bool MusicDownPressed()
+        {
+#if ENABLE_INPUT_SYSTEM
+            return WasKeyPressed(Key.Digit1) || WasKeyPressed(Key.Numpad1);
+#else
+            return Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Keypad1);
+#endif
+        }
+
+        /// <summary>True on the frame the "music up" key (2) is pressed.</summary>
+        public static bool MusicUpPressed()
+        {
+#if ENABLE_INPUT_SYSTEM
+            return WasKeyPressed(Key.Digit2) || WasKeyPressed(Key.Numpad2);
+#else
+            return Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Keypad2);
+#endif
+        }
+
+        /// <summary>True on the frame the "effects down" key (3) is pressed.</summary>
+        public static bool SfxDownPressed()
+        {
+#if ENABLE_INPUT_SYSTEM
+            return WasKeyPressed(Key.Digit3) || WasKeyPressed(Key.Numpad3);
+#else
+            return Input.GetKeyDown(KeyCode.Alpha3) || Input.GetKeyDown(KeyCode.Keypad3);
+#endif
+        }
+
+        /// <summary>True on the frame the "effects up" key (4) is pressed.</summary>
+        public static bool SfxUpPressed()
+        {
+#if ENABLE_INPUT_SYSTEM
+            return WasKeyPressed(Key.Digit4) || WasKeyPressed(Key.Numpad4);
+#else
+            return Input.GetKeyDown(KeyCode.Alpha4) || Input.GetKeyDown(KeyCode.Keypad4);
+#endif
+        }
+
+#if ENABLE_INPUT_SYSTEM
+        /// <summary>
+        /// Checks a single key of the new Input System; safe when no keyboard is connected.
+        /// </summary>
+        private static bool WasKeyPressed(Key key)
+        {
+            Keyboard keyboard = Keyboard.current;
+            return keyboard != null && keyboard[key].wasPressedThisFrame;
+        }
+#endif
     }
 }

@@ -43,8 +43,9 @@ namespace GuardiansOfTheWetland.Core
         /// </summary>
         public static Sprite GetPlaceholder(Color color)
         {
-            // Reuse the sprite if this color was already generated.
-            if (placeholderCache.TryGetValue(color, out Sprite cachedSprite))
+            // Reuse the sprite if this color was already generated
+            // (and it was not destroyed when a previous Play session ended).
+            if (placeholderCache.TryGetValue(color, out Sprite cachedSprite) && cachedSprite != null)
             {
                 return cachedSprite;
             }

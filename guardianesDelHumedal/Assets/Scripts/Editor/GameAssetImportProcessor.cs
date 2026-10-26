@@ -15,8 +15,8 @@ namespace GuardiansOfTheWetland.EditorTools
         private const string SpriteFolder = "Assets/Resources/Sprites/";
         private const string AudioFolder = "Assets/Resources/Audio/";
 
-        // One level tile is 32x32 pixels, so 32 pixels equal one world unit.
-        private const int PixelsPerTile = 32;
+        // One level tile is 64x64 pixels, so 64 pixels equal one world unit.
+        private const int PixelsPerTile = 64;
 
         // Music files start with this prefix; they are streamed instead of fully loaded.
         private const string MusicPrefix = "music_";

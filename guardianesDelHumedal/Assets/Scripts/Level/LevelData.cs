@@ -8,20 +8,21 @@ namespace GuardiansOfTheWetland.Level
     ///   '.'  empty space
     ///   '#'  ground or platform (solid)
     ///   'P'  player spawn point
-    ///   '~'  polluted water   (hazard)       - implemented in block 2
-    ///   'R'  gorse "retamo"   (hazard)       - implemented in block 2
-    ///   'T'  trash            (collectible)  - implemented in block 2
-    ///   'S'  native seed      (collectible)  - implemented in block 2
-    ///   'F'  finish / restoration point      - implemented in block 2
+    ///   '~'  polluted water   (hazard: lose a drop and return to the start)
+    ///   'R'  gorse "retamo"   (hazard: lose a drop and get pushed back)
+    ///   'T'  trash            (collectible, all of it is required to restore)
+    ///   'S'  native seed      (collectible)
+    ///   'F'  finish / restoration point
     ///
-    /// Characters that are not implemented yet are simply ignored by the builder,
-    /// so the level can be designed completely before every system exists.
+    /// Unknown characters are ignored by the builder.
     ///
     /// Design decisions (see doc: docs/aportes/mariana.md):
     ///   - 11 rows x 60 columns, every row the same length.
     ///   - Player jump reaches 3.2 tiles (PlayerController.jumpHeight),
     ///     so vertical rises between platforms stay <= 3 and gaps <= 4.
     ///   - 8 trash (T), 5 seeds (S), 1 spawn (P), 1 finish (F).
+    ///   - The three ground gaps are polluted water (~) and two gorse bushes (R)
+    ///     guard the path, so every hazard sound and subtitle appears in the level.
     ///   - Difficulty grows from left to right: low, wide platforms near the
     ///     spawn become smaller and higher platforms toward the finish.
     /// </summary>
@@ -38,8 +39,8 @@ namespace GuardiansOfTheWetland.Level
             "......................T...####...####.......................",
             "...........S........####..####..............................",
             ".......S..###.......####....................................",
-            "...P.T###T###....T..........................................",
-            "############....##############....##############....########",
+            "...P.T###T###....T......R...............R...................",
+            "############~~~~##############~~~~##############~~~~########",
         };
     }
 }
