@@ -65,7 +65,7 @@ Estos valores salen de la física del jugador en `PlayerController.cs` y definen
 - **Dificultad creciente:** el tramo inicial es suelo amplio con plataformas bajas; hacia el final las plataformas se vuelven más altas y cortas, exigiendo saltos más precisos, hasta llegar a la meta en la meseta superior derecha.
 - **Coleccionables distribuidos por el recorrido:** 8 basuras y 5 semillas repartidas a lo largo del camino, de modo que se recogen mientras se avanza hacia la meta.
 
-> Esta tabla va como **decisión de diseño** dentro de la sección "Decisiones técnicas" del documento técnico (borrador domingo 5:00 p.m.).
+> Esta tabla va como **decisión de diseño** dentro de la sección "Decisiones técnicas" del documento técnico.
 
 ---
 
