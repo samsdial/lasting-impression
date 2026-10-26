@@ -36,9 +36,12 @@ namespace GuardiansOfTheWetland.Player
         [Tooltip("If the player falls below this height, it returns to the spawn point.")]
         public float fallLimitY = -3f;
 
-        // Size of the player's collision box, slightly smaller than one tile
-        // so it fits through one-tile gaps without catching on edges.
-        private static readonly Vector2 ColliderSize = new Vector2(0.8f, 0.95f);
+        // Size of the player's collision box. It matches the visible character
+        // in the 64x64 art (about 31x52 px), so walls are touched where they look touched.
+        private static readonly Vector2 ColliderSize = new Vector2(0.5f, 0.85f);
+
+        // Seconds without player control after being pushed by a hazard.
+        private const float KnockbackLockSeconds = 0.25f;
 
         // A contact counts as "floor" when its normal points mostly upwards.
         private const float GroundNormalThreshold = 0.5f;
@@ -52,6 +55,7 @@ namespace GuardiansOfTheWetland.Player
         private float lastGroundedTime = ExpiredTime;
         private float lastJumpPressedTime = ExpiredTime;
         private bool isGrounded;
+        private float controlLockedUntil = ExpiredTime;
 
         /// <summary>True while the player is standing on a surface.</summary>
         public bool IsGrounded => isGrounded;
@@ -96,6 +100,19 @@ namespace GuardiansOfTheWetland.Player
 
         private void Update()
         {
+            // Falling out of the level sends the player back to the start.
+            if (transform.position.y < fallLimitY)
+            {
+                Respawn();
+                return;
+            }
+
+            // During a knockback the push is not overridden by the player's input.
+            if (Time.time < controlLockedUntil)
+            {
+                return;
+            }
+
             float horizontal = PlayerInput.GetHorizontal();
 
             // Remember when jump was pressed (jump buffer).
@@ -133,12 +150,6 @@ namespace GuardiansOfTheWetland.Player
             {
                 spriteRenderer.flipX = horizontal < 0f;
             }
-
-            // Falling out of the level sends the player back to the start.
-            if (transform.position.y < fallLimitY)
-            {
-                Respawn();
-            }
         }
 
         /// <summary>
@@ -149,6 +160,17 @@ namespace GuardiansOfTheWetland.Player
         {
             transform.position = spawnPoint;
             SetVelocity(Vector2.zero);
+            controlLockedUntil = ExpiredTime;
+        }
+
+        /// <summary>
+        /// Pushes the player with the given velocity and briefly ignores the controls,
+        /// so the push is clearly felt (used by hazards such as the gorse).
+        /// </summary>
+        public void ApplyKnockback(Vector2 velocity)
+        {
+            SetVelocity(velocity);
+            controlLockedUntil = Time.time + KnockbackLockSeconds;
         }
 
         /// <summary>

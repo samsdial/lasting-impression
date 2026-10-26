@@ -17,23 +17,23 @@ El juego se construye **todo por código**. Ustedes no necesitan armar escenas e
 
 ## 2. Arte → `guardianesDelHumedal/Assets/Resources/Sprites/`
 
-Formato: **PNG con fondo transparente**. Un tile = **32 × 32 px**.
+Formato: **PNG con fondo transparente**. Un tile = **64 × 64 px**.
 
 | Archivo | Qué es | Tamaño |
 |---|---|---|
-| `player_idle.png` | Guardián quieto | 32×32 |
-| `player_walk_1.png`, `player_walk_2.png` | Guardián caminando (2 cuadros) | 32×32 |
-| `player_jump.png` | Guardián saltando | 32×32 |
-| `player_hurt.png` | Guardián recibiendo daño | 32×32 |
-| `ground_top.png` / `ground_fill.png` | Borde con pasto y tierra, versión **gris (contaminada)** | 32×32 |
-| `ground_top_restored.png` / `ground_fill_restored.png` | Los mismos tiles en versión **verde (restaurada)** | 32×32 |
-| `water_polluted.png` | Agua contaminada (con residuos visibles) | 32×32 |
-| `gorse.png` | Retamo espinoso | 32×32 |
-| `trash.png` | Basura recolectable | 32×32 |
-| `seed.png` | Semilla nativa (**forma distinta** a la basura, no solo color) | 32×32 |
-| `finish.png` | Meta / punto de restauración | 32×32 |
-| `species.png` | Especie rescatada definida en el GDD | 32×32 o 64×64 |
-| `background_polluted.png` / `background_restored.png` | Fondo gris y fondo verde | 640×360 |
+| `player_idle.png` | Guardián quieto | 64×64 |
+| `player_walk_1.png`, `player_walk_2.png` | Guardián caminando (2 cuadros) | 64×64 |
+| `player_jump.png` | Guardián saltando | 64×64 |
+| `player_hurt.png` | Guardián recibiendo daño | 64×64 |
+| `ground_top.png` / `ground_fill.png` | Borde con pasto y tierra, versión **gris (contaminada)** | 64×64 |
+| `ground_top_restored.png` / `ground_fill_restored.png` | Los mismos tiles en versión **verde (restaurada)** | 64×64 |
+| `water_polluted.png` | Agua contaminada (con residuos visibles) | 64×64 |
+| `gorse.png` | Retamo espinoso | 64×64 |
+| `trash.png` | Basura recolectable | 64×64 |
+| `seed.png` | Semilla nativa (**forma distinta** a la basura, no solo color) | 64×64 |
+| `finish.png` | Meta / punto de restauración | 64×64 |
+| `species.png` | Especie rescatada definida en el GDD | 64×64 o 64×64 |
+| `background_polluted.png` / `background_restored.png` | Fondo gris y fondo verde | 1280×360 |
 
 **Accesibilidad:** lo peligroso (agua, retamo) y lo que se recoge (basura, semilla) se debe poder distinguir **por forma**, aunque se vea en blanco y negro.
 
@@ -60,7 +60,7 @@ Por cada archivo generado o asistido con IA, completa esto en el PR:
 
 | Archivo | Herramienta y versión | Prompt (**en inglés**) | Qué modificaste a mano |
 |---|---|---|---|
-| `trash.png` | Leonardo.ai (Phoenix 1.0) | "pixel art plastic bottle, 32x32, transparent background, muted colors" | Recorté a 32×32, bajé la saturación, limpié el contorno |
+| `trash.png` | Leonardo.ai (Phoenix 1.0) | "pixel art plastic bottle, 32x32, transparent background, muted colors" | Recorté a 64×64, bajé la saturación, limpié el contorno |
 
 La guía exige que el resultado se **posprocese**: no se puede subir tal cual sale de la IA. Guarda una captura del resultado original para el documento técnico.
 
