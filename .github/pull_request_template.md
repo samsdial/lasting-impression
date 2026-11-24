@@ -22,7 +22,7 @@
 ## Subtítulos (solo si es audio)
 | Archivo | Texto del subtítulo |
 |---|---|
-| sfx_platform |  [Plataforma en movimiento]) |
+| sfx_platform |  [Plataforma en movimiento] |
 
 ## Fuente y licencia (si el recurso no es original)
 <!-- Ej: sfx_water.wav – freesound.org/people/xxx – CC0 -->
