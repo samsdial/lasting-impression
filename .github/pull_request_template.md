@@ -3,15 +3,15 @@
 
 ## Tipo
 - [ ] Arte (`Assets/Resources/Sprites`)
-- [ ] Audio (`Assets/Resources/Audio`)
+- [x ] Audio (`Assets/Resources/Audio`)
 - [ ] Código
 - [ ] Documentación
 
 ## Checklist
-- [ ] Trabajé en mi propia rama, no en `main`
+- [ x] Trabajé en mi propia rama, no en `main`
 - [ ] Los nombres de archivo son exactamente los de `docs/GUIA-APORTES-ETAPA3.md`
 - [ ] No modifiqué escenas (`.unity`), `ProjectSettings/` ni scripts de otros
-- [ ] Si usé IA, llené la declaración de abajo
+- [ x] Si usé IA, llené la declaración de abajo
 - [ ] Si es código: nombres y comentarios en inglés
 
 ## Declaración de uso de IA (si aplica)
