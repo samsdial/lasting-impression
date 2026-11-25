@@ -4,7 +4,6 @@
 **Author:** David Arana
 **Role:** Sound design (audio)
 **Branch:** `audio-david`
-**Date:** 2026-11-25
 
 ---
 
