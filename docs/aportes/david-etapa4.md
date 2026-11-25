@@ -28,15 +28,13 @@ All files are in `guardianesDelHumedal/Assets/Resources/Audio/`.
 | `sfx_species.wav` | Call of the rescued species (Bogota rail) | [Canto Tingua] |
 | `sfx_platform.wav` | Stepping onto the moving platform (new mechanic) | [Plataforma en movimiento] |
 
-> Note: the new mechanic is a moving platform. If the team decides it is an enemy instead, `sfx_platform.wav` will be replaced by `sfx_enemy.wav` with its own subtitle.
 
 ## 3. Technical decisions
 
 - **Formats:** music in `.ogg` (looping, smaller size); sound effects in `.wav`.
 - **Duration:** every sound effect is under 2 seconds, as agreed by the team.
-- **Levels:** both music tracks were forced through a limiter at -6 dB to avoid sudden peaks. [Sound effects: describe any level adjustment, or write "none".]
-- **Editing:** [describe trimming, fades and loop points you made, and the tool you used, e.g. Audacity].
-- **Integration:** [describe how the sounds are triggered in Unity, e.g. which script or `AudioSource` plays each one].
+- **Levels:** both music tracks were forced through a limiter at -6 dB to avoid sudden peaks. 
+- **Editing:** I used a Hard Limiter in Adobe Audition and then exported it in WAV format.
 
 ## 4. Accessibility
 
@@ -67,8 +65,9 @@ Prompts are in English, as required. If a real recording from Xeno-canto was use
 ## 6. Git workflow
 
 - Work was done on branch `audio-david`, with commits identifiable as mine.
-- A pull request to `main` was opened with the subtitle table filled in: [PR link or number].
 
 ## 7. Lessons learned
 
-[Write 3 or 4 sentences in your own words: what was hardest about the audio, what you would change, and what you learned.]
+The most difficult part was finding a good audio editing tool to apply the limiter, as well as finding the right AI tool with good quality to generate the audio files.
+
+I learned about the different tools available on the market for creating AI-generated audio, how they work, and what they can be used for.
