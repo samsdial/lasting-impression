@@ -17,12 +17,12 @@
 ## Declaración de uso de IA (si aplica)
 | Archivo | Herramienta y versión | Prompt (en inglés) | Qué modifiqué a mano |
 |---|---|---|---|
-|  |  |  |  |
+| | | |  |
 
 ## Subtítulos (solo si es audio)
 | Archivo | Texto del subtítulo |
 |---|---|
-|  |  |
+| | |
 
 ## Fuente y licencia (si el recurso no es original)
 <!-- Ej: sfx_water.wav – freesound.org/people/xxx – CC0 -->
