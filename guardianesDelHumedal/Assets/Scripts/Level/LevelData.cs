@@ -13,6 +13,7 @@ namespace GuardiansOfTheWetland.Level
     ///   'T'  trash            (collectible, all of it is required to restore)
     ///   'S'  native seed      (collectible)
     ///   'F'  finish / restoration point
+    ///   'M'  moving platform  (machine mechanic: travels 5 tiles to the right and back)
     ///
     /// Unknown characters are ignored by the builder.
     ///
@@ -25,6 +26,10 @@ namespace GuardiansOfTheWetland.Level
     ///     guard the path, so every hazard sound and subtitle appears in the level.
     ///   - Difficulty grows from left to right: low, wide platforms near the
     ///     spawn become smaller and higher platforms toward the finish.
+    ///   - The moving platform (M) starts on the shore at column 47 and crosses the
+    ///     last water gap (columns 48-51). The gap is still 4 tiles wide, so it can
+    ///     also be jumped: the platform is a second, slower way through the same
+    ///     obstacle (WCAG 2.2 / UDL, multiple means of action), not a wall.
     /// </summary>
     public static class LevelData
     {
@@ -39,7 +44,7 @@ namespace GuardiansOfTheWetland.Level
             "......................T...####...####.......................",
             "...........S........####..####..............................",
             ".......S..###.......####....................................",
-            "...P.T###T###....T......R...............R...................",
+            "...P.T###T###....T......R...............R......M............",
             "############~~~~##############~~~~##############~~~~########",
         };
     }
