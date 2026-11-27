@@ -75,3 +75,51 @@ Estos valores salen de la física del jugador en `PlayerController.cs` y definen
 - La **meta es alcanzable** desde el punto de inicio siguiendo plataformas dentro del rango del salto.
 - Todo coleccionable queda **sobre una superficie alcanzable** del recorrido.
 - **Pendiente de probar en Unity (manual):** dar Play y afinar el gameplay de los saltos. Las basuras, el agua y demás se activan cuando esos bloques estén implementados, pero ya es posible probar los saltos.
+
+---
+
+## Stage 4 contribution — Integration of the moving-platform level update
+
+**Branch / file:** `guardianesDelHumedal/Assets/Scripts/Level/LevelData.cs`
+**Assignment goal:** incorporate the Stage 4 "machine mechanic" (moving platform) into the level map, on top of the design delivered in Stage 3.
+
+### What I actually did
+
+I reviewed the level-map update proposed for the Stage 4 machine mechanic — a new map
+symbol (`M`) representing a moving platform that travels across one of the polluted-water
+gaps — and integrated it into the project's `LevelData.cs`, together with the updated
+legend and design-decision comments that document where the platform sits and why.
+
+I am stating plainly, for accuracy, that **the placement of the platform (row 9, column 47)
+and the written rationale for it were produced with AI assistance** (Claude), as part of a
+set of Stage 4 scripts requested by a teammate on behalf of the whole group. My own
+contribution at this point is the review and integration of that change into the
+repository's `LevelData.cs`, not the original design of the placement itself. This is
+recorded for transparency in `docs/declaracion-ia-etapa4.md`.
+
+### What the updated map changes
+
+- Adds the symbol `M` to the legend, for a moving platform that is not controlled by the
+  player.
+- Places `M` in row 9 (the row with the ground and hazards), column 47, right before the
+  third and last polluted-water gap (columns 48-51).
+- Keeps every other row of the Stage 3 map unchanged: still 11 rows of 60 characters each,
+  the same counts of trash (8), seeds (5), spawn (1) and finish (1).
+- The water gap it crosses is still 4 tiles wide, so it remains jumpable on its own — the
+  platform is an additional way across the same obstacle, not the only way.
+
+### What is still pending (not yet done by me)
+
+- **Play-testing in the Unity Editor.** I have not yet opened Play mode to confirm that the
+  platform appears, that the player can stand on it, or that it actually carries the player
+  across the gap. This has to happen before the mechanic can be marked as verified.
+- **Confirming the design reasoning against the jump metrics.** The Stage 3 table above
+  (jump height 3.2 tiles, gaps ≤ 4 tiles) already covers the rest of the level; I still need
+  to confirm, by testing, that the platform's speed and travel distance (set in the proposed
+  `MovingPlatform.cs`) feel right in practice and not just on paper.
+- **Any further adjustment** to the platform's position, speed or travel distance, if testing
+  shows it needs one, will be documented here once done.
+
+I am leaving this section separate from the Stage 3 "Verificación" above, because that one
+describes rules that were actually checked for the Stage 3 map, and I do not want to imply
+the same level of verification applies to this new element yet.
